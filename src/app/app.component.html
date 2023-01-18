@@ -1,0 +1,56 @@
+<!-- todo: Ejemplo de estrategia OnPush para ChangeDetention  -->
+<!-- <app-on-push></app-on-push> -->
+
+<!-- todo: Ejemplo de uso de método detach() y detectChanges() -->
+<!-- <app-detach></app-detach> -->
+
+<!-- todo: Ejemplo de uso de métodos tetach() y reattach() -->
+<!-- <app-reattach [enVivo]="live"></app-reattach> -->
+<!-- <h5>¿Mostrar precio Bitcoin en vivo?</h5>
+<input type="checkbox" [(ngModel)]="live"> -->
+
+<!-- todo: Ejemplo de uso de AngularZone (ngZone) -->
+<!-- <app-ng-zone></app-ng-zone> -->
+
+<!-- todo: Ejemplo de uso de PIPE asíncrono de agular -->
+<!-- <app-async-pipe [items$]="items$"></app-async-pipe> -->
+
+<!--* Botón para emitir una nueva lista de nuevo valor al componente Async Pipe  -->
+<!-- <button type="button" (click)="addItem()">
+  Añadir nuevo item a la lista
+</button> -->
+
+<!-- ----------------------------------------------------------------- -->
+<!-- Ejemplo de uso de directiva de atributo personalizada -->
+<!-- <app-ejemplo-attr></app-ejemplo-attr> -->
+
+<!-- Ejemplo de uso de directiva estructural personalizada -->
+<!-- <app-ejemplo-struct> </app-ejemplo-struct> -->
+
+<!-- ----------------------------------------------------------------- -->
+
+<!-- ! Login formdel módulo auth-forms  -->
+<!-- <app-login-form></app-login-form> -->
+
+<!-- !Sistema de enrutado de módulos cargados de forma perezosa  -->
+<!-- <router-outlet></router-outlet> -->
+
+<!-- Ruta de navegación -->
+<!-- <app-nav></app-nav> -->
+
+<!-- Componente Shopping List -->
+<!-- <app-shopping-list></app-shopping-list> -->
+<!-- <h1>Shopping Car</h1> -->
+
+
+<div>
+  <h1>Mi primera PWA con peticiones HTTP Cacheados</h1>
+
+  <div *ngIf="chiste">
+    <h2>Chistes:</h2>
+    <h4 class="chiste">{{ chiste }}</h4>
+  </div>
+
+  <button mat-button color="primary" (click)="obtenerNuevoChiste()">{{ chiste ? 'Generar chiste' : 'Nuevo chiste' }}</button>
+</div>
+
